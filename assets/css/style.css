@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+:root{
+   --current-font: "Poppins";
+   --font-extralight: 200;
+   --font-regular: 400;
+   --font-semibold: 600;
+   --font-style: normal;
+   --color: #4D4F62;
+}
+
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: var(--current-font);
+    font-weight: var(--font-regular);
+    height: 100vh;
+    color: var(--color);
+}
+
+main{
+    height: 100%;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 87%;
+}
+
+header h1{
+    font-size: 1.5rem;
+    font-weight: var(--font-extralight);
+    margin-left: auto; 
+    margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+header h1 strong{
+    font-weight: var(--font-semibold);
+}
+
+header p{
+    font-size: 0.9375rem;
+    font-weight: var(--font-regular);
+    letter-spacing: 0.1px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    line-height: 140%;
+}
+
+.artificial-intelligence-tools{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tool-card{
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    margin-bottom: 32px;
+    padding: 32px;
+    font-size: 0.8125rem;
+    height: 250px;
+    position: relative;
+}
+
+.tool-card img{
+    position: absolute;
+    right: 32px;
+    top: 139px;
+}
+
+.tool-card h2{
+    font-size: 1.25rem;
+    line-height: 135%;
+    font-weight: var(--font-semibold);
+}
+
+.tool-card p{
+    margin-bottom: 32px;
+    margin-top: 5px;
+    letter-spacing: 0.09px;
+    line-height: 160%;
+    font-size: 0.8125rem;
+    width: 98%;
+}
+
+.artificial-intelligence-tools > .tool-card:first-child{
+    border-top: 4px solid #44D3D2;
+}
+
+.flex-item-wrapper > .tool-card:first-child{
+    border-top: 4px solid #EA5454;
+}
+
+.flex-item-wrapper > .tool-card:nth-child(2){
+    border-top: 4px solid #FCAE4A;
+}
+
+.artificial-intelligence-tools > .tool-card:last-child{
+    border-top: 4px solid #549EF2;
+}
+
+@media screen and (min-width: 375px) {
+    .tool-card{
+        width: 19.625rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header{
+        width: 316px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    header{
+        width: 540px;
+        margin-bottom: 70px;
+        margin-top: 80px;
+    }
+
+    header h1{
+        font-size: 2.25rem;
+    }
+
+    .artificial-intelligence-tools > .tool-card{
+        width: 19.625rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flex-item-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flex-item-wrapper > .tool-card{
+        width: 19.625rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+
+    header{
+        margin-top: 102px;
+    }
+
+    .artificial-intelligence-tools{
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-item-wrapper{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 21.875rem;
+    }
+
+    .artificial-intelligence-tools > .tool-card{
+        width: 21.875rem;
+    }
+
+    .flex-item-wrapper > .tool-card{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width:2199px) {
+    main{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:2200px) {
+    main{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
