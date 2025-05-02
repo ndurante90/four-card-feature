@@ -9,8 +9,6 @@
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,8 +33,8 @@ Mobile Screen
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ndurante90/four-card-feature.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ndurante90/four-card-feature]
+- Live Site URL: [https://four-card-feature-eta-six.vercel.app/]
 
 ## My process
 
